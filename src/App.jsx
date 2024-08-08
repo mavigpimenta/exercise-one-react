@@ -27,9 +27,12 @@ function App() {
   return (
     <>
       <div className="min-h-screen flex flex-col w-full">
-        <NavBar></NavBar>
+        <NavBar></NavBar> 
+        {/* componente desenvolvido para a navbar da pagina */}
         <PageContent users={users}></PageContent>
+        {/* componente desenvolvido para a parte da lista de usuarios */}
         <Footer></Footer>
+        {/* componente desenvolvido para o footer da pagina */}
       </div>
     </>
   );
